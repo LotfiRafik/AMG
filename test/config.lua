@@ -1,8 +1,8 @@
+executable = "./amg"
+envv_OMP_NUM_THREADS="1"
+run_command = "<executable> -n 200 200 150 -P 1 1 1"
+
 multiruns_params = {
-    { 
-        name= "1x1", 
-        envv_OMP_NUM_THREADS="1",
-    },
     { 
         name= "1x2", 
         envv_OMP_NUM_THREADS="2",

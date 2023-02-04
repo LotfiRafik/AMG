@@ -53,3 +53,7 @@ dkms.conf
 
 
 .vscode/
+
+
+# Ignore MAQAO REPORTS
+maqao_*/
