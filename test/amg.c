@@ -34,7 +34,7 @@
 #include "HYPRE_parcsr_ls.h"
 #include "_hypre_parcsr_mv.h"
 #include "HYPRE_krylov.h"
-
+#include "_hypre_parcsr_ls.h"
 #include <time.h>
 
 #ifdef __cplusplus
